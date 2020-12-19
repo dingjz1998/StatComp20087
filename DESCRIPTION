@@ -1,0 +1,20 @@
+Package: StatComp20087
+Type: Package
+Title: Research Project and functions in the homework
+Version: 1.0
+Date: 2020-12-14
+Author: Jingzhi Ding
+Maintainer: Jingzhi Ding <dingjz1998@mail.ustc.edu.cn>
+Description: This package shows the homework in the 'Statistical Computing' course and some functions in my personal research. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5),
+        randomForest,lattice,MASS,DAAG,bootstrap,boot,Ball,RANN,energy,microbenchmark
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown
+URL: http://github.com/dingjz1998/StatComp20087
+BugReports: http://github.com/dingjz1998/StatComp20087/issues
+NeedsCompilation: yes
+Packaged: 2020-12-19 07:47:02 UTC; Ding-Jingzhi
